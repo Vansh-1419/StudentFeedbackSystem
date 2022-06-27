@@ -1,0 +1,136 @@
+.cl {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+.cl1 {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-top: 30vh;
+}
+
+.cl1 h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size: 7vh;
+  margin-top: 1vh;
+}
+
+.cl1 p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1vh;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1vh;
+  margin-right: 1vh;
+}
+
+.g {
+  position: relative;
+  height: 8vh;
+  width: 8vh;
+  margin-right: 1.2vh;
+}
+.cl1 hr {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  align-content: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1vh;
+}
+.input {
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+  width: 40vh;
+  outline: none;
+  height: 5vh;
+  border-radius: 2vh;
+  position: relative;
+  background-color: rgb(198, 230, 219);
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: 2vh;
+}
+.input::placeholder {
+  margin-right: 2vh;
+}
+.input::after {
+  margin-left: 1vh;
+}
+.btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+}
+.btn button {
+  width: 30vh;
+  height: 5vh;
+  position: relative;
+  border-radius: 6vh;
+  background-color: rgb(22, 117, 103);
+  color: white;
+  outline: none;
+}
+.cl2 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: rgb(22, 117, 103);
+  color: white;
+}
+.cl2 h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size: 7vh;
+  margin-top: 33vh;
+}
+
+.cl2 p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1vh;
+}
+.buton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+.buton button {
+  background-color: white;
+  width: 30vh;
+  height: 5vh;
+  position: relative;
+  border-radius: 6vh;
+  color: black;
+}
